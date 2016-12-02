@@ -1,21 +1,19 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package exemplostatic;
 
-/**
- *
- * @author agarridogarcia
- */
+
 public class ExemploStatic {
 
-    /**
-     * @param args the command line arguments
-     */
+   
     public static void main(String[] args) {
-        // TODO code application logic here
+         Persoa per1=new Persoa("Ana", 23);
+         per1.incrementarPersoas();//obsoleto
+         per1.visualizar();
+         Persoa per2=new Persoa("Juan",30);
+         per2.incrementarPersoas();
+         per2.visualizar();
+         
+         
     }
     
 }
